@@ -45,7 +45,7 @@ while providing the brewery with actionable recommendations based on the results
 - Data visualisation
 - Executive reports
 
-### Supply Chain KPIs
+### Supply Chain KPIs:
 
 #### Inventory
 - Inventory Turnover
@@ -67,3 +67,5 @@ while providing the brewery with actionable recommendations based on the results
 - Delivery Success %
 - Transport Cost per Unit
 - Warehouse Throughput
+
+### Dashboard
