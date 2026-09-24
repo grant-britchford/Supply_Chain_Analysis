@@ -22,7 +22,7 @@ Supply_Chain_Analysis/
 ├── SQL/
 │
 │
-├── PoerBI/
+├── PowerBI/
 │
 │
 ├── Documents/
