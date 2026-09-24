@@ -31,3 +31,39 @@ while providing the brewery with actionable recommendations based on the results
   1. Delivery performance
   2. Transport costs
   3. Fulfilment rates
+
+### Tools Used:
+
+**SQL Server**
+- Database creation
+- ETL
+- Data modelling
+- KPI calculations
+
+**Power BI**
+- Dashboard development
+- Data visualisation
+- Executive reports
+
+### Supply Chain KPIs
+
+#### Inventory
+- Inventory Turnover
+- Days Inventory Outstanding
+- Stockout Rate
+- Inventory Value
+
+#### Suppliers
+- Supplier Scorecard
+- Average Lead Time
+- On-Time Delivery %
+
+#### Production
+- Batch Yield %
+- Production Volume
+- Waste %
+
+#### Logistics
+- Delivery Success %
+- Transport Cost per Unit
+- Warehouse Throughput
