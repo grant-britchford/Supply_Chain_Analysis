@@ -1,1 +1,2 @@
-# Supply_Chain_Analysis
+# Supply Chain Analysis
+## Beavertown Brewery Inspired Supply Chain Analysis Project
