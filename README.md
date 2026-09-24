@@ -8,6 +8,120 @@ The project analyses the end-to-end supply chain operations of a independant bre
 The project objective is to identify operational inefficiencies, supplier risks, inventory issues, and logistical bottlenecks
 while providing the brewery with actionable recommendations based on the results of the analysis.
 
+### Project Structure
+
+```text
+Beavertown-Supply-Chain-Analytics
+│
+├── README.md
+│
+├── Data
+│ │
+│ ├── Raw
+│ │ ├── suppliers.csv
+│ │ ├── products.csv
+│ │ ├── inventory.csv
+│ │ ├── warehouses.csv
+│ │ ├── purchase_orders.csv
+│ │ ├── production_batches.csv
+│ │ ├── logistics.csv
+│ │ ├── sales_orders.csv
+│ │ └── calendar.csv
+│ │
+│ └── Processed
+│ ├── fact_inventory.csv
+│ ├── fact_purchase_orders.csv
+│ ├── fact_production.csv
+│ ├── fact_logistics.csv
+│ ├── dim_supplier.csv
+│ ├── dim_product.csv
+│ ├── dim_warehouse.csv
+│ └── dim_date.csv
+│
+├── SQL
+│ │
+│ ├── 01_Create_Database.sql
+│ ├── 02_Create_Tables.sql
+│ ├── 03_Insert_Sample_Data.sql
+│ ├── 04_Generate_Synthetic_Data.sql
+│ ├── 05_Create_Views.sql
+│ ├── 06_Create_Stored_Procedures.sql
+│ ├── 07_Create_Indexes.sql
+│ ├── 08_Data_Quality_Checks.sql
+│ ├── 09_KPI_Queries.sql
+│ └── 10_Reporting_Views.sql
+│
+├── Documentation
+│ │
+│ ├── Business_Requirements.md
+│ ├── Data_Dictionary.md
+│ ├── Entity_Relationship_Diagram.png
+│ ├── Data_Model.png
+│ ├── KPI_Definitions.md
+│ ├── Dashboard_Wireframes.pdf
+│ ├── Assumptions.md
+│ └── Executive_Summary.pdf
+│
+├── Analysis
+│ │
+│ ├── Inventory_Analysis.sql
+│ ├── Supplier_Performance_Analysis.sql
+│ ├── Production_Analysis.sql
+│ ├── Logistics_Analysis.sql
+│ ├── Demand_Forecasting.sql
+│ └── Root_Cause_Analysis.sql
+│
+├── PowerBI
+│ │
+│ ├── Beavertown_SupplyChain.pbix
+│ │
+│ ├── DAX
+│ │ ├── Inventory_Measures.dax
+│ │ ├── Supplier_Measures.dax
+│ │ ├── Production_Measures.dax
+│ │ ├── Logistics_Measures.dax
+│ │ └── Executive_KPIs.dax
+│ │
+│ ├── Themes
+│ │ └── Beavertown_Theme.json
+│ │
+│ └── Exported_Images
+│ ├── Executive_Dashboard.png
+│ ├── Inventory_Dashboard.png
+│ ├── Supplier_Dashboard.png
+│ ├── Production_Dashboard.png
+│ └── Logistics_Dashboard.png
+│
+├── Dashboard_Design
+│ │
+│ ├── Page_1_Executive_Overview.md
+│ ├── Page_2_Inventory_Analytics.md
+│ ├── Page_3_Supplier_Performance.md
+│ ├── Page_4_Production_Analytics.md
+│ ├── Page_5_Logistics_Analytics.md
+│ └── UX_Design_Guidelines.md
+│
+├── Presentation
+│ │
+│ ├── Executive_Presentation.pptx
+│ ├── Case_Study.pdf
+│ └── Portfolio_Showcase.pdf
+│
+├── Images
+│ │
+│ ├── erd.png
+│ ├── star_schema.png
+│ ├── dashboard_preview_1.png
+│ ├── dashboard_preview_2.png
+│ ├── dashboard_preview_3.png
+│ ├── dashboard_preview_4.png
+│ └── dashboard_preview_5.png
+│
+└── .gitignore
+```
+ 
+---
+ 
 ### Business Goals:
 
 #### Inventory Optimisation
