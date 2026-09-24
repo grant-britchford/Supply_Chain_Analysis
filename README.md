@@ -17,7 +17,7 @@ Supply_Chain_Analysis/
 ├── .git/
 │
 ├── Data/
-│
+│    
 │
 ├── SQL/
 │
