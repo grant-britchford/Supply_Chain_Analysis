@@ -1,0 +1,23 @@
+WITH Numbers AS(
+SELECT TOP (10000) ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS N
+FROM sys.objects a
+CROSS JOIN sys.objects b)
+
+INSERT INTO dbo.PurchaseOrders(
+SupplierID,
+OrderDate,
+ExpectedDate,
+ActualDeliveryDate,
+OrderValue)
+SELECT
+
+ABS(CHECKSUM(NEWID())) % 10 + 1,
+
+DATEADD(DAY, -ABS(CHECKSUM(NEWID())) % 730, GETDATE()),
+
+DATEADD(DAY, ABS(CHECKSUM(NEWID())) % 15 + 3,
+DATEADD(DAY, -ABS(CHECKSUM(NEWID())) % 730, GETDATE())),
+
+CAST(RAND(CHECKSUM(NEWID())) * 20000 + 500 AS DECIMAL(12,2))
+
+FROM Numbers;
