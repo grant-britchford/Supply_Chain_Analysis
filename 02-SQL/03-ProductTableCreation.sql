@@ -1,0 +1,6 @@
+CREATE TABLE Products(
+ProductID INT IDENTITY(1,1) PRIMARY KEY,
+ProductName VARCHAR(70),
+BeerType VARCHAR(30),
+UnitCost DECIMAL(10,2),
+SellingPrice DECIMAL(10,2));
