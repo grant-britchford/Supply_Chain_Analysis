@@ -1,0 +1,10 @@
+INSERT INTO warehouse.FactSales
+SELECT Num, (
+SELECT TOP 1 DateKey
+FROM warehouse.DimDate ORDER BY NEWID()),
+ABS(CHECKSUM(NEWID())) % 500 + 1,
+ABS(CHECKSUM(NEWID())) % 5 + 1,
+ABS(CHECKSUM(NEWID())) % 250 + 1,
+ABS(CHECKSUM(NEWID())) % 5000 + 100
+FROM dbo.Numbers
+WHERE Num <= 35000;
