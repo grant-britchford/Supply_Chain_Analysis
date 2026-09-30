@@ -1,4 +1,0 @@
-CREATE TABLE Warehouses(
-WarehouseID INT IDENTITY(1,1) PRIMARY KEY,
-WarehouseName VARCHAR(100),
-Location VARCHAR(100));
