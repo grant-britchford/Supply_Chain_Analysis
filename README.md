@@ -86,4 +86,13 @@ The goal of the project is to create a single analytical platform that is capabl
 - Provide actionable business insights
 - Improve supply chain visibility
 
+### Tools Used
 
+1. SQL Server - Data warehouse and transformation
+2. T-SQL - Data cleaning & KPI calculations
+3. Python - Data generation
+4. Pandas - Data manipulation
+5. Power BI - Visualisation
+6. DAX - KPI calculations
+7. GitHub - Repository
+8. Excel - Validation & reconciliation
