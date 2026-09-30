@@ -39,64 +39,19 @@ Supply_Chain_Analysis/
 └── README.md
 ```
  
-### Business Goals:
+### Business Problem:
 
-#### Inventory Optimisation
-- Reduce the excess inventory while maintaining quality service levels.
+As production volumes increase and distribution networks expand, supply chain teams require reliable and accurate data to support planning decisions.
 
-#### Supplier Performance
-- Evaluate the suppliers based on:
-  1. On-time deliveries
-  2. Cost
-  3. Lead times
-  4. Defect rates
+Several critical business challenges have been identified:
 
-#### Product Efficiency
-- Monitor:
-  1. Brew output
-  2. Batch yield
-  3. Material usage
+- Inaccurate demand forecasts
+- Excess inventory holding costs
+- Product stockouts
+- Supplier delivery delays
+- Poor forecast visibility
+- Data quality issues across operational systems
+- Inefficient reporting processes
+- Lack of standard KPIs
 
-#### Logistics Performance
-- Track:
-  1. Delivery performance
-  2. Transport costs
-  3. Fulfilment rates
-
-### Tools Used:
-
-**SQL Server**
-- Database creation
-- ETL
-- Data modelling
-- KPI calculations
-
-**Power BI**
-- Dashboard development
-- Data visualisation
-- Executive reports
-
-### Supply Chain KPIs:
-
-#### Inventory
-- Inventory Turnover
-- Days Inventory Outstanding
-- Stockout Rate
-- Inventory Value
-
-#### Suppliers
-- Supplier Scorecard
-- Average Lead Time
-- On-Time Delivery %
-
-#### Production
-- Batch Yield %
-- Production Volume
-- Waste %
-
-#### Logistics
-- Delivery Success %
-- Transport Cost per Unit
-- Warehouse Throughput
-
-### Dashboard
+The goal of the project is to create a single analytical platform that is capable of providing meaningful insights across planning, procurement, warehousing, and logistics operations.
