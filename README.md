@@ -1,12 +1,15 @@
-# Supply Chain Analysis
-## Beavertown Brewery Inspired Supply Chain Analysis Project
+# Beavertown Brewery Supply Chain Analysis & Demand Planning Platform
+## Inspired by Beavertown Brewery
 
 ### Description:
 
-The project analyses the end-to-end supply chain operations of a independant brewery using SQL Server and Power BI.
+The project analyses the end-to-end supply chain and demand planning solution inspired by the supply chain analyst role at Beavertown Brewery. The objective is to simulate a real-world brewery supply chain environment where data is collected from multiple operational systems, then cleaned, transformed, modelled, and visualised to support business decision-making.
 
-The project objective is to identify operational inefficiencies, supplier risks, inventory issues, and logistical bottlenecks
-while providing the brewery with actionable recommendations based on the results of the analysis.
+This project demonstrates practical skills across supply chain analysis, SQL Server, data quality management, Power BI, demand planning, forecast accuracy measurement, supplier performance analytics, and inventory optimisation.
+
+The solution has been designed to mirror real-world challenges, which includes data quality issues, forecast bias, stock shortages, late supply deliveries, and inconsistent master data quality.
+
+
 
 ### Project Structure
 
@@ -36,64 +39,60 @@ Supply_Chain_Analysis/
 └── README.md
 ```
  
-### Business Goals:
+### Business Problem:
 
-#### Inventory Optimisation
-- Reduce the excess inventory while maintaining quality service levels.
+As production volumes increase and distribution networks expand, supply chain teams require reliable and accurate data to support planning decisions.
+
+Several critical business challenges have been identified:
+
+- Inaccurate demand forecasts
+- Excess inventory holding costs
+- Product stockouts
+- Supplier delivery delays
+- Poor forecast visibility
+- Data quality issues across operational systems
+
+The goal of the project is to create a single analytical platform that is capable of providing meaningful insights across planning, procurement, warehousing, and logistics operations.
+
+### Project Objectives:
+
+#### Demand Planning
+- Measure forecast accuracy
+- Identify forecast bias
+- Monitor forecast performance trends
+- Compare forecasts against actual demand
+
+#### Inventory Management
+- Monitor inventory levels
+- Identify stock shortages
+- Track safety stock breaches
+- Calculate inventory turnover
 
 #### Supplier Performance
-- Evaluate the suppliers based on:
-  1. On-time deliveries
-  2. Cost
-  3. Lead times
-  4. Defect rates
+- Measure supplier delivery performance
+- Calculate On Time In Full (OTIF)
+- Identify late deliveries
+- Analyse supplier lead time variation
 
-#### Product Efficiency
-- Monitor:
-  1. Brew output
-  2. Batch yield
-  3. Material usage
+#### Data Quality
+- Detect duplicates
+- Identify missing values
+- Standardise master data
+- Validate data integrity
 
-#### Logistics Performance
-- Track:
-  1. Delivery performance
-  2. Transport costs
-  3. Fulfilment rates
+#### Executive Reporting
+- Deliver automated KPI dashboards
+- Support sales and operations (S&OP) decision making
+- Provide actionable business insights
+- Improve supply chain visibility
 
-### Tools Used:
+### Tools Used
 
-**SQL Server**
-- Database creation
-- ETL
-- Data modelling
-- KPI calculations
-
-**Power BI**
-- Dashboard development
-- Data visualisation
-- Executive reports
-
-### Supply Chain KPIs:
-
-#### Inventory
-- Inventory Turnover
-- Days Inventory Outstanding
-- Stockout Rate
-- Inventory Value
-
-#### Suppliers
-- Supplier Scorecard
-- Average Lead Time
-- On-Time Delivery %
-
-#### Production
-- Batch Yield %
-- Production Volume
-- Waste %
-
-#### Logistics
-- Delivery Success %
-- Transport Cost per Unit
-- Warehouse Throughput
-
-### Dashboard
+1. SQL Server - Data warehouse and transformation
+2. T-SQL - Data cleaning & KPI calculations
+3. Python - Data generation
+4. Pandas - Data manipulation
+5. Power BI - Visualisation
+6. DAX - KPI calculations
+7. GitHub - Repository
+8. Excel - Validation & reconciliation
