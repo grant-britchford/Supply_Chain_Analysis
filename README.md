@@ -14,7 +14,7 @@ The solution has been designed to mirror real-world challenges, which includes d
 ### Project Structure
 
 ```text
-Supply_Chain_Analysis/
+Beavertown-Supply-Chain-Analysis/
 │
 │
 ├── .git/
@@ -23,11 +23,34 @@ Supply_Chain_Analysis/
 │    
 │
 ├── SQL/
-│
-│
-├── PowerBI/
-│
-│
+│    ├── 01-Database & Schema/
+│    │      ├──01 - Database Creation.sql
+│    │      └──02 - Schema Creation.sql
+│    │
+│    ├── 02-Staging
+│    │      └── 01- Staging Table Creation.sql
+│    │
+│    ├── 03-Table Generation
+│    │      ├── 01-Dimension Table Creation.sql
+│    │      ├── 02-Fact Table Creation.sql
+│    │      └── 03-Number Table Creation.sql
+│    │
+│    ├── 04-Data Generation
+│    │      ├── 01-DimProduct Data Generation.sql
+│    │      ├── 02-DimSupplier Data Generation.sql
+│    │      ├── 03-DimWarehouse Data Generation.sql
+│    │      ├── 04-Date Table Data Generation.sql
+│    │      ├── 05-Sales Records Data Generation.sql
+│    │      ├── 06-Forecast Data Generation.sql
+│    │      ├── 07-Inventory Data Generation.sql
+│    │      ├── 08-Supplier Delivery Data Generation.sql
+│    │      ├── 09-Dirty Data Generation.sql
+│    │      └── 10-Dirty Sales Data in SalesRaw.sql
+│    
+│    
+│    
+│    
+│    
 ├── Documents/
 │
 │
