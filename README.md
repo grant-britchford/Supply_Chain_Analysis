@@ -51,7 +51,39 @@ Several critical business challenges have been identified:
 - Supplier delivery delays
 - Poor forecast visibility
 - Data quality issues across operational systems
-- Inefficient reporting processes
-- Lack of standard KPIs
 
 The goal of the project is to create a single analytical platform that is capable of providing meaningful insights across planning, procurement, warehousing, and logistics operations.
+
+### Project Objectives:
+
+#### Demand Planning
+- Measure forecast accuracy
+- Identify forecast bias
+- Monitor forecast performance trends
+- Compare forecasts against actual demand
+
+#### Inventory Management
+- Monitor inventory levels
+- Identify stock shortages
+- Track safety stock breaches
+- Calculate inventory turnover
+
+#### Supplier Performance
+- Measure supplier delivery performance
+- Calculate On Time In Full (OTIF)
+- Identify late deliveries
+- Analyse supplier lead time variation
+
+#### Data Quality
+- Detect duplicates
+- Identify missing values
+- Standardise master data
+- Validate data integrity
+
+#### Executive Reporting
+- Deliver automated KPI dashboards
+- Support sales and operations (S&OP) decision making
+- Provide actionable business insights
+- Improve supply chain visibility
+
+
