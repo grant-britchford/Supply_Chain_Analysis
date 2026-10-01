@@ -40,7 +40,7 @@ Beavertown-Supply-Chain-Analysis/
 │    ├── 04-Data Validation
 │    │      ├── 01-SalesRawCleaning.sql
 │    │      ├── 02-InventoryRawCleaning.sql
-│    │      ├── 03-DimWarehouse Data Generation.sql
+│    │      ├── 03-ForecastRawCleaning.sql
 │    │      ├── 04-Date Table Data Generation.sql
 │    │      ├── 05-Sales Records Data Generation.sql
 │    │      ├── 06-Forecast Data Generation.sql
