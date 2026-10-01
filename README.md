@@ -41,17 +41,7 @@ Beavertown-Supply-Chain-Analysis/
 │    │      ├── 01-SalesRawCleaning.sql
 │    │      ├── 02-InventoryRawCleaning.sql
 │    │      ├── 03-ForecastRawCleaning.sql
-│    │      ├── 04-Date Table Data Generation.sql
-│    │      ├── 05-Sales Records Data Generation.sql
-│    │      ├── 06-Forecast Data Generation.sql
-│    │      ├── 07-Inventory Data Generation.sql
-│    │      ├── 08-Supplier Delivery Data Generation.sql
-│    │      ├── 09-Dirty Data Generation.sql
-│    │      └── 10-Dirty Sales Data in SalesRaw.sql
-│    
-│    
-│    
-│    
+│    │      └── 04-SupplierRawCleaning.sql
 │    
 ├── Documents/
 │
