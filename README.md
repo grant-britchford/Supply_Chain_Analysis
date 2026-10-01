@@ -37,9 +37,9 @@ Beavertown-Supply-Chain-Analysis/
 │    │      ├── 02-FactTablesCreation.sql
 │    │      └── 03-Number Table Creation.sql
 │    │
-│    ├── 04-Data Generation
-│    │      ├── 01-DimProduct Data Generation.sql
-│    │      ├── 02-DimSupplier Data Generation.sql
+│    ├── 04-Data Validation
+│    │      ├── 01-SalesRawCleaning.sql
+│    │      ├── 02-InventoryRawCleaning.sql
 │    │      ├── 03-DimWarehouse Data Generation.sql
 │    │      ├── 04-Date Table Data Generation.sql
 │    │      ├── 05-Sales Records Data Generation.sql
