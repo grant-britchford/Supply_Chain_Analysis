@@ -24,15 +24,15 @@ Beavertown-Supply-Chain-Analysis/
 │
 ├── SQL/
 │    ├── 01-Database & Schema/
-│    │      ├── 01 - Database Creation.sql
-│    │      └── 02 - Schema Creation.sql
+│    │      ├── 01-DatabaseCreation.sql
+│    │      └── 02-Schema Creation.sql
 │    │
 │    ├── 02-Staging/
 │    │       ├── 01-StagingTablesCreation.sql
 │    │       ├── 02-DirtyDataStaging.sql
 │    │       └── 03-SalesRawDuplicates.sql
 │    │
-│    ├── 03-Table Generation/
+│    ├── 03-Table Creation/
 │    │      ├── 01-DimTablesCreation.sql
 │    │      ├── 02-FactTablesCreation.sql
 │    │      ├── 03-NumberTableCreation.sql
@@ -44,7 +44,8 @@ Beavertown-Supply-Chain-Analysis/
 │    │      ├── 03-ForecastRawCleaning.sql
 │    │      ├── 04-SalesRawCleaning.sql
 │    │      ├── 05-SupplierRawCleaning.sql
-│    │      └── 06-DataQualityMetrics.sql
+│    │      ├── 06-LoadCleanDataToWarehouse.sql
+│    │      └── 07-DataQualityMetrics.sql
 │    
 ├── Documents/
 │
