@@ -27,17 +27,17 @@ Beavertown-Supply-Chain-Analysis/
 │    │      ├── 01 - Database Creation.sql
 │    │      └── 02 - Schema Creation.sql
 │    │
-│    ├── 02-Staging
+│    ├── 02-Staging/
 │    │       ├── 01-StagingTablesCreation.sql
 │    │       ├── 02-DirtyDataStaging.sql
 │    │       └── 03-SalesRawDuplicates.sql
 │    │
-│    ├── 03-Table Generation
+│    ├── 03-Table Generation/
 │    │      ├── 01-DimTablesCreation.sql
 │    │      ├── 02-FactTablesCreation.sql
 │    │      └── 03-Number Table Creation.sql
 │    │
-│    ├── 04-Data Validation
+│    ├── 04-Data Validation/
 │    │      ├── 01-DuplicateCount.sql
 │    │      ├── 02-InventoryRawCleaning.sql
 │    │      ├── 03-ForecastRawCleaning.sql
