@@ -1,0 +1,4 @@
+SELECT *
+FROM staging.SalesRaw
+WHERE TRY_CONVERT(
+DATE, SalesDate) IS NULL;
