@@ -1,6 +1,6 @@
-SELECT ProductID, COUNT(*) AS DuplicateCount
+SELECT SalesID, COUNT(*) AS DuplicateCount
 FROM staging.SalesRaw
-GROUP BY ProductID
+GROUP BY SalesID
 HAVING COUNT(*) > 1;
 GO
 

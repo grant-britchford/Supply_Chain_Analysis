@@ -12,7 +12,7 @@ GO
 
 WITH Duplicates AS(
 SELECT *,
-ROW_NUMBER() OVER (PARTITION BY ProductID ORDER BY SalesID) AS rn
+ROW_NUMBER() OVER (PARTITION BY SalesID ORDER BY SalesDate) AS rn
 FROM staging.SalesRaw)
 DELETE FROM Duplicates
 WHERE rn > 1;
