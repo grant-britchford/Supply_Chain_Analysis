@@ -1,0 +1,19 @@
+SELECT *
+FROM staging.SalesRaw
+WHERE TRY_CONVERT(
+DATE, SalesDate) IS NULL;
+GO
+
+DELETE
+FROM staging.SalesRaw
+WHERE TRY_CONVERT(
+DATE, SalesDate) IS NULL;
+GO
+
+WITH Duplicates AS(
+SELECT *,
+ROW_NUMBER() OVER (PARTITION BY SalesID ORDER BY SalesDate) AS rn
+FROM staging.SalesRaw)
+DELETE FROM Duplicates
+WHERE rn > 1;
+GO
