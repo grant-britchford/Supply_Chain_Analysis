@@ -38,10 +38,11 @@ Beavertown-Supply-Chain-Analysis/
 │    │      └── 03-Number Table Creation.sql
 │    │
 │    ├── 04-Data Validation
-│    │      ├── 01-SalesRawCleaning.sql
+│    │      ├── 01-DuplicateCount.sql
 │    │      ├── 02-InventoryRawCleaning.sql
 │    │      ├── 03-ForecastRawCleaning.sql
-│    │      └── 04-SupplierRawCleaning.sql
+│    │      ├── 04-SalesRawCleaning.sql
+│    │      └── 05-SupplierRawCleaning.sql
 │    
 ├── Documents/
 │
