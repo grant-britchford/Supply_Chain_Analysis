@@ -32,7 +32,7 @@ Beavertown-Supply-Chain-Analysis/
 │    │
 │    ├── 03-Table Generation
 │    │      ├── 01-DimTablesCreation.sql
-│    │      ├── 02-Fact Table Creation.sql
+│    │      ├── 02-FactTablesCreation.sql
 │    │      └── 03-Number Table Creation.sql
 │    │
 │    ├── 04-Data Generation
