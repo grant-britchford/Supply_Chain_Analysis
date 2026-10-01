@@ -47,7 +47,8 @@ Beavertown-Supply-Chain-Analysis/
 │    │      ├── 06-LoadCleanDataToWarehouse.sql
 │    │      └── 07-DataQualityMetrics.sql
 │    
-├── Documents/
+├── MySQL Analysis/
+│    │      ├── 01-DuplicateCount.sql
 │
 │
 ├─ Images/
