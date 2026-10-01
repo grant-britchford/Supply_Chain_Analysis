@@ -28,8 +28,8 @@ Beavertown-Supply-Chain-Analysis/
 │    │      └──02 - Schema Creation.sql
 │    │
 │    ├── 02-Staging
-│    │      └── 01- StagingTablesCreation.sql
-│    │
+│    │       ├── 01-StagingTablesCreation.sql
+│    │       ├── 02-DirtyDataStaging.sql
 │    ├── 03-Table Generation
 │    │      ├── 01-DimTablesCreation.sql
 │    │      ├── 02-FactTablesCreation.sql
