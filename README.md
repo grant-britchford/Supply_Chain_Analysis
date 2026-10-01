@@ -31,7 +31,7 @@ Beavertown-Supply-Chain-Analysis/
 │    │      └── 01- StagingTablesCreation.sql
 │    │
 │    ├── 03-Table Generation
-│    │      ├── 01-Dimension Table Creation.sql
+│    │      ├── 01-DimTablesCreation.sql
 │    │      ├── 02-Fact Table Creation.sql
 │    │      └── 03-Number Table Creation.sql
 │    │
