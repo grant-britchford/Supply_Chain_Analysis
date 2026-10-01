@@ -7,7 +7,7 @@ The project analyses the end-to-end supply chain and demand planning solution in
 
 This project demonstrates practical skills across supply chain analysis, SQL Server, data quality management, Power BI, demand planning, forecast accuracy measurement, supplier performance analytics, and inventory optimisation.
 
-The solution has been designed to mirror real-world challenges, which includes data quality issues, forecast bias, stock shortages, late supply deliveries, and inconsistent master data quality.
+The solution has been designed to mirror real-world challenges, which include's data quality issues, forecast bias, stock shortages, late supply deliveries, and inconsistent master data quality.
 
 
 
@@ -35,14 +35,16 @@ Beavertown-Supply-Chain-Analysis/
 │    ├── 03-Table Generation/
 │    │      ├── 01-DimTablesCreation.sql
 │    │      ├── 02-FactTablesCreation.sql
-│    │      └── 03-Number Table Creation.sql
+│    │      ├── 03-NumberTableCreation.sql
+│    │      └── 04-DataQualityMetricTableCreation.sql
 │    │
 │    ├── 04-Data Validation/
 │    │      ├── 01-DuplicateCount.sql
 │    │      ├── 02-InventoryRawCleaning.sql
 │    │      ├── 03-ForecastRawCleaning.sql
 │    │      ├── 04-SalesRawCleaning.sql
-│    │      └── 05-SupplierRawCleaning.sql
+│    │      ├── 05-SupplierRawCleaning.sql
+│    │      └── 06-DataQualityMetrics.sql
 │    
 ├── Documents/
 │
