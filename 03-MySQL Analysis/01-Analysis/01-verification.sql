@@ -1,2 +1,1 @@
-SELECT COUNT(*) FROM factsales;
-
+SELECT COUNT(*) AS FactInventoryRowCount FROM factinventory;
