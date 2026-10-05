@@ -26,6 +26,37 @@ My task is to:
 6. Develop interactive executive dashboards
 7. Present my recommendations
 
+### Business Questions:
+
+#### Inventory
+- Which products are consistently under-stocked?
+- Which Stock Keeping Units (SKUs) are over-stocked?
+- What is the inventory turnover by product?
+
+#### Suppliers
+- Which suppliers are causing late deliveries?
+- Which suppliers have the highest defect rates?
+- Which suppliers should be reviewed?
+
+#### Purchasing
+- Which materials have the longest lead times?
+- How accurate are expected delivery dates?
+
+#### Fulfilment
+- Which warehouses perform best?
+- Which orders are late?
+
+#### Demand Planning
+- Which products have the highest demand?
+- Which orders are late?
+
+#### Executive
+- Working Capital tied up in inventory?
+- On Time In Full (OTIF) performance?
+- Fill rate?
+- Inventory days?
+- Supplier scorecard?
+
 
 ### Project Structure
 
@@ -74,53 +105,6 @@ Supply-Chain-Analysis/
 │
 └── README.md
 ```
- 
-### Business Problem:
-
-As production volumes increase and distribution networks expand, supply chain teams require reliable and accurate data to support planning decisions.
-
-Several critical business challenges have been identified:
-
-- Inaccurate demand forecasts
-- Excess inventory holding costs
-- Product stockouts
-- Supplier delivery delays
-- Poor forecast visibility
-- Data quality issues across operational systems
-
-The goal of the project is to create a single analytical platform that is capable of providing meaningful insights across planning, procurement, warehousing, and logistics operations.
-
-### Project Objectives:
-
-#### Demand Planning
-- Measure forecast accuracy
-- Identify forecast bias
-- Monitor forecast performance trends
-- Compare forecasts against actual demand
-
-#### Inventory Management
-- Monitor inventory levels
-- Identify stock shortages
-- Track safety stock breaches
-- Calculate inventory turnover
-
-#### Supplier Performance
-- Measure supplier delivery performance
-- Calculate On Time In Full (OTIF)
-- Identify late deliveries
-- Analyse supplier lead time variation
-
-#### Data Quality
-- Detect duplicates
-- Identify missing values
-- Standardise master data
-- Validate data integrity
-
-#### Executive Reporting
-- Deliver automated KPI dashboards
-- Support sales and operations (S&OP) decision making
-- Provide actionable business insights
-- Improve supply chain visibility
 
 ### Tools Used
 
