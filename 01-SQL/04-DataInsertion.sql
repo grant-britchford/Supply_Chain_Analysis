@@ -1,3 +1,27 @@
+/*PurchaseOrders */
+DECLARE @Counter INT = 1;
+WHILE @Counter <= 5000
+BEGIN
+INSERT INTO procurement.PurchaseOrders(
+SupplierID,
+ProductID,
+QuantityOrdered,
+OrderDate,
+ExpectedDeliveryDate,
+ActualDeliveryDate,
+UnitCost)
+VALUES(
+ABS(CHECKSUM(NEWID())) % 52 + 1,
+ABS(CHECKSUM(NEWID())) % 200 + 1,
+ABS(CHECKSUM(NEWID())) % 1000 + 50,
+DATEADD(DAY, -ABS(CHECKSUM(NEWID())) % 730, GETDATE()),
+DATEADD(DAY, ABS(CHECKSUM(NEWID())) % 14 + 5, GETDATE()),
+DATEADD(DAY, ABS(CHECKSUM(NEWID())) % 18 + 5, GETDATE()),
+ROUND(RAND(CHECKSUM(NEWID())) * 10 + 1, 2));
+SET @Counter = @Counter + 1;
+END;
+GO
+
 /* stock */
 DECLARE @ProductID INT = 1;
 
