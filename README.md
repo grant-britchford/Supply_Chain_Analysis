@@ -80,12 +80,17 @@ I have been hired as the Supply Chain Analyst to deliver the solution.
 
 ### Target Database Size
 
-**Table**                **Target Rows**
-Products                  50
-Suppliers                 20
-Inventory Records         150
-Purchase Orders           5,000
-Sales Orders              10,000
+**Table** | **Target Rows**
+
+Products | 50
+
+Suppliers | 20
+
+Inventory Records | 150
+
+Purchase Orders | 5,000
+
+Sales Orders | 10,000
 
 ### Project Structure
 
