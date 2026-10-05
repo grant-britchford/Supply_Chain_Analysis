@@ -95,17 +95,17 @@ Sales Orders | 10,000
 ### Project Structure
 
 ```text
-Supply-Chain-Analysis/
+Supply_Chain_Analysis/
 │
 ├── README.md
 │
 ├── SQL/
-│    ├── 01-DatabaseCreation.sql
-│    ├── 02-SchemaCreation.sql
-│    ├── 03-TableCreation.sql
-│    ├── 04-DataInsertion.sql
-│    ├── 05-DataCleaning.sql
-│    ├── 06-ViewsCreation.sql
+│    ├── 01-.sql
+│    ├── 02-.sql
+│    ├── 03-.sql
+│    ├── 04-.sql
+│    ├── .sql
+│    ├── 06-.sql
 │    ├──
 │
 ├── Data/
