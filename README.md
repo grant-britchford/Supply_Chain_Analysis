@@ -1,20 +1,36 @@
-# Beavertown Brewery Supply Chain Analysis & Demand Planning Platform
+# Supply Chain Performance & Inventory Optimisation Analysis
 ## Inspired by Beavertown Brewery
 
 ### Description:
 
-The project analyses the end-to-end supply chain and demand planning solution inspired by the supply chain analyst role at Beavertown Brewery. The objective is to simulate a real-world brewery supply chain environment where data is collected from multiple operational systems, then cleaned, transformed, modelled, and visualised to support business decision-making.
+A brewery has experienced rapid growth,
 
-This project demonstrates practical skills across supply chain analysis, SQL Server, data quality management, Power BI, demand planning, forecast accuracy measurement, supplier performance analytics, and inventory optimisation.
+The management has identified the recurring issues:
+- Late deliveries
+- Stock shortages
+- excess inventory
+- Supplier performance inconsistencies
+- Forecast inaccuracies
+- Customer order delays
 
-The solution has been designed to mirror real-world challenges, which include's data quality issues, forecast bias, stock shortages, late supply deliveries, and inconsistent master data quality.
+The supply chain department has asked for a complete analysis solution.
 
+I have been hired as the supply chain analyst.
+
+My task is to:
+1. Build the database
+2. Generate operational data
+3. Identify data quality issues
+4. Clean and validate the raw data
+5. Analyse performance
+6. Develop interactive executive dashboards
+7. Present my recommendations
 
 
 ### Project Structure
 
 ```text
-Beavertown-Supply-Chain-Analysis/
+Supply-Chain-Analysis/
 │
 │
 ├── .git/
