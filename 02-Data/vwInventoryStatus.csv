@@ -1,0 +1,51 @@
+﻿ProductName,StockQuantity,ReOrderPoint,StockStatus
+Beer_1,1047,178,Healthy
+Beer_2,273,218,Healthy
+Beer_3,218,76,Healthy
+Beer_4,1015,160,Healthy
+Beer_5,25,121,ReOrder Required
+Beer_6,781,34,Healthy
+Beer_7,69,208,ReOrder Required
+Beer_8,62,191,ReOrder Required
+Beer_9,410,117,Healthy
+Beer_10,844,58,Healthy
+Beer_11,464,41,Healthy
+Beer_12,694,215,Healthy
+Beer_13,771,21,Healthy
+Beer_14,609,94,Healthy
+Beer_15,901,197,Healthy
+Beer_16,705,29,Healthy
+Beer_17,219,119,Healthy
+Beer_18,418,182,Healthy
+Beer_19,98,134,ReOrder Required
+Beer_20,25,171,ReOrder Required
+Beer_21,972,173,Healthy
+Beer_22,686,83,Healthy
+Beer_23,402,125,Healthy
+Beer_24,294,54,Healthy
+Beer_25,714,139,Healthy
+Beer_26,292,181,Healthy
+Beer_27,357,81,Healthy
+Beer_28,274,212,Healthy
+Beer_29,84,140,ReOrder Required
+Beer_30,943,174,Healthy
+Beer_31,491,196,Healthy
+Beer_32,610,84,Healthy
+Beer_33,396,123,Healthy
+Beer_34,571,77,Healthy
+Beer_35,220,166,Healthy
+Beer_36,379,153,Healthy
+Beer_37,368,93,Healthy
+Beer_38,841,152,Healthy
+Beer_39,738,186,Healthy
+Beer_40,909,93,Healthy
+Beer_41,53,153,ReOrder Required
+Beer_42,989,215,Healthy
+Beer_43,418,73,Healthy
+Beer_44,601,70,Healthy
+Beer_45,763,112,Healthy
+Beer_46,108,36,Healthy
+Beer_47,524,27,Healthy
+Beer_48,556,122,Healthy
+Beer_49,425,164,Healthy
+Beer_50,25,174,ReOrder Required
