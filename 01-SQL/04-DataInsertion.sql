@@ -1,3 +1,26 @@
+/* stock */
+DECLARE @ProductID INT = 1;
+
+WHILE @ProductID <= 50
+BEGIN
+
+INSERT INTO inventory.Stock(
+ProductID,
+Warehouse,
+StockQuantity,
+ReOrderPoint,
+StockDate)
+VALUES(
+@ProductID,
+'Leeds Warehouse',
+ABS(CHECKSUM(NEWID())) % 1000 + 50,
+ABS(CHECKSUM(NEWID())) % 200 + 20,
+GETDATE());
+
+SET @ProductID = @ProductID + 1;
+END;
+GO
+
 /* Products */
 DECLARE @i INT = 1;
 
