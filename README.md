@@ -66,7 +66,7 @@ Supply-Chain-Analysis/
 ├── README.md
 │
 ├── SQL/
-│    ├──
+│    ├── 01-DatabaseCreation.sql
 │    ├── 
 │    ├── 
 │    ├──
