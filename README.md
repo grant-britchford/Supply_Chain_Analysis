@@ -70,7 +70,7 @@ Supply-Chain-Analysis/
 │    ├── 02-SchemaCreation.sql
 │    ├── 03-TableCreation.sql
 │    ├── 04-DataInsertion.sql
-│    ├──
+│    ├── 05-DataCleaning.sql
 │    ├──
 │    ├──
 │
