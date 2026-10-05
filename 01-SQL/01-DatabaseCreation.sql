@@ -1,0 +1,15 @@
+IF DB_ID('BrewerySupplyChain') IS NOT NULL
+BEGIN
+ALTER DATABASE BrewerySupplyChain
+SET SINGLE_USER
+WITH ROLLBACK IMMEDIATE;
+
+DROP DATABASE BrewerySupplyChain;
+END
+GO
+
+CREATE DATABASE BrewerySupplyChain;
+GO
+
+USE BrewerySupplyChain;
+GO
