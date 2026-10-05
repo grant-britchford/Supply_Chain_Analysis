@@ -102,7 +102,7 @@ Supply_Chain_Analysis/
 ├── SQL/
 │    ├── 01-DatabaseCreation.sql
 │    ├── 02-SchemaCreation.sql
-│    ├── 03-.sql
+│    ├── 03-TableCreation.sql
 │    ├── 04-.sql
 │    ├── .sql
 │    ├── 06-.sql
