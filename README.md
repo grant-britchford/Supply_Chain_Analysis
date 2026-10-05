@@ -1,30 +1,43 @@
-# Supply Chain Performance & Inventory Optimisation Analysis
+# Supply Chain Analysis Platform for a Craft Brewery
 ## Inspired by Beavertown Brewery
 
-### Description:
+### Objective:
 
-A brewery has experienced rapid growth,
+My objective is to design and create an end-to-end Supply Chain Analysis solution inspired by the type of work performed 
+by Beavertown Brewery Supply Chain Analysts in a real-world brewery operation.
 
-The management has identified the recurring issues:
-- Late deliveries
-- Stock shortages
-- excess inventory
-- Supplier performance inconsistencies
-- Forecast inaccuracies
-- Customer order delays
+The project will demonstrate:
+- SQL Server Express
+- Database Design
+- ETL Principles
+- Data Validation
+- Data Cleaning
+- Data Modelling
+- Supply Chain Analysis
+- Procurement Analysis
+- Inventory Analysis
+- Warehouse Analysis
+- Power BI
+- DAX
+- Dashboard Design
+- Business Storytelling
 
-The supply chain department has asked for a complete analysis solution.
+### Business Scenario:
 
-I have been hired as the supply chain analyst.
+BlackCrow Brewery has experienced rapid growth over the last three years.
 
-My task is to:
-1. Build the database
-2. Generate operational data
-3. Identify data quality issues
-4. Clean and validate the raw data
-5. Analyse performance
-6. Develop interactive executive dashboards
-7. Present my recommendations
+As the demand increased, several operational issues emerged:
+- Inventory shortages
+- Overstocking
+- Late supplier deliveries
+- Inaccurate purchase planning
+- Poor warehouse visibility
+- Rising inventory costs
+- Reduced service levels
+
+BlackCrow management requires a complete analytics platform to improve supply chain performance.
+
+I have been hired as the Supply Chain Analyst to deliver the solution.
 
 ### Business Questions:
 
