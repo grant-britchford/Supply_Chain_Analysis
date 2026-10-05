@@ -71,7 +71,7 @@ Supply-Chain-Analysis/
 │    ├── 03-TableCreation.sql
 │    ├── 04-DataInsertion.sql
 │    ├── 05-DataCleaning.sql
-│    ├──
+│    ├── 06-ViewsCreation.sql
 │    ├──
 │
 ├── Data/
