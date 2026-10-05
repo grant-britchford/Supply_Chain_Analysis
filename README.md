@@ -1,110 +1,93 @@
-# Beavertown Brewery Supply Chain Analysis & Demand Planning Platform
+# Supply Chain Performance & Inventory Optimisation Analysis
 ## Inspired by Beavertown Brewery
 
 ### Description:
 
-The project analyses the end-to-end supply chain and demand planning solution inspired by the supply chain analyst role at Beavertown Brewery. The objective is to simulate a real-world brewery supply chain environment where data is collected from multiple operational systems, then cleaned, transformed, modelled, and visualised to support business decision-making.
+A brewery has experienced rapid growth,
 
-This project demonstrates practical skills across supply chain analysis, SQL Server, data quality management, Power BI, demand planning, forecast accuracy measurement, supplier performance analytics, and inventory optimisation.
+The management has identified the recurring issues:
+- Late deliveries
+- Stock shortages
+- excess inventory
+- Supplier performance inconsistencies
+- Forecast inaccuracies
+- Customer order delays
 
-The solution has been designed to mirror real-world challenges, which include's data quality issues, forecast bias, stock shortages, late supply deliveries, and inconsistent master data quality.
+The supply chain department has asked for a complete analysis solution.
 
+I have been hired as the supply chain analyst.
+
+My task is to:
+1. Build the database
+2. Generate operational data
+3. Identify data quality issues
+4. Clean and validate the raw data
+5. Analyse performance
+6. Develop interactive executive dashboards
+7. Present my recommendations
+
+### Business Questions:
+
+#### Inventory
+- Which products are consistently under-stocked?
+- Which Stock Keeping Units (SKUs) are over-stocked?
+- What is the inventory turnover by product?
+
+#### Suppliers
+- Which suppliers are causing late deliveries?
+- Which suppliers have the highest defect rates?
+- Which suppliers should be reviewed?
+
+#### Purchasing
+- Which materials have the longest lead times?
+- How accurate are expected delivery dates?
+
+#### Fulfilment
+- Which warehouses perform best?
+- Which orders are late?
+
+#### Demand Planning
+- Which products have the highest demand?
+- Which orders are late?
+
+#### Executive
+- Working Capital tied up in inventory?
+- On Time In Full (OTIF) performance?
+- Fill rate?
+- Inventory days?
+- Supplier scorecard?
 
 
 ### Project Structure
 
 ```text
-Beavertown-Supply-Chain-Analysis/
+Supply-Chain-Analysis/
 │
-│
-├── .git/
-│
-├── Data/
-│    
+├── README.md
 │
 ├── SQL/
-│    ├── 01-Database & Schema/
-│    │      ├── 01-DatabaseCreation.sql
-│    │      └── 02-Schema Creation.sql
-│    │
-│    ├── 02-Staging/
-│    │       ├── 01-StagingTablesCreation.sql
-│    │       ├── 02-DirtyDataStaging.sql
-│    │       └── 03-SalesRawDuplicates.sql
-│    │
-│    ├── 03-Table Creation/
-│    │      ├── 01-DimTablesCreation.sql
-│    │      ├── 02-FactTablesCreation.sql
-│    │      ├── 03-NumberTableCreation.sql
-│    │      └── 04-DataQualityMetricTableCreation.sql
-│    │
-│    ├── 04-Data Validation/
-│    │      ├── 01-DuplicateCount.sql
-│    │      ├── 02-InventoryRawCleaning.sql
-│    │      ├── 03-ForecastRawCleaning.sql
-│    │      ├── 04-SalesRawCleaning.sql
-│    │      ├── 05-SupplierRawCleaning.sql
-│    │      ├── 06-LoadCleanDataToWarehouse.sql
-│    │      └── 07-DataQualityMetrics.sql
-│    
-├── MySQL Analysis/
-│    │      ├── 01-DuplicateCount.sql
+│    ├──
+│    ├── 
+│    ├── 
+│    ├──
+│    ├──
+│    ├──
+│    ├──
+│
+├── Data/
+│    ├──
+│    ├──
+│    ├──
+│    ├──
+│    ├──
+│
+├─ Power BI/
 │
 │
 ├─ Images/
 │
-│
-├─ Licence/
-│
-└── README.md
+└── Documents/
 ```
- 
-### Business Problem:
-
-As production volumes increase and distribution networks expand, supply chain teams require reliable and accurate data to support planning decisions.
-
-Several critical business challenges have been identified:
-
-- Inaccurate demand forecasts
-- Excess inventory holding costs
-- Product stockouts
-- Supplier delivery delays
-- Poor forecast visibility
-- Data quality issues across operational systems
-
-The goal of the project is to create a single analytical platform that is capable of providing meaningful insights across planning, procurement, warehousing, and logistics operations.
-
-### Project Objectives:
-
-#### Demand Planning
-- Measure forecast accuracy
-- Identify forecast bias
-- Monitor forecast performance trends
-- Compare forecasts against actual demand
-
-#### Inventory Management
-- Monitor inventory levels
-- Identify stock shortages
-- Track safety stock breaches
-- Calculate inventory turnover
-
-#### Supplier Performance
-- Measure supplier delivery performance
-- Calculate On Time In Full (OTIF)
-- Identify late deliveries
-- Analyse supplier lead time variation
-
-#### Data Quality
-- Detect duplicates
-- Identify missing values
-- Standardise master data
-- Validate data integrity
-
-#### Executive Reporting
-- Deliver automated KPI dashboards
-- Support sales and operations (S&OP) decision making
-- Provide actionable business insights
-- Improve supply chain visibility
 
 ### Tools Used
 
