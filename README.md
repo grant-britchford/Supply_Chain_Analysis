@@ -42,34 +42,41 @@ I have been hired as the Supply Chain Analyst to deliver the solution.
 ### Business Questions:
 
 #### Inventory
-- Which products are consistently under-stocked?
+- Which products require replenishment?
 - Which Stock Keeping Units (SKUs) are over-stocked?
 - What is the inventory turnover by product?
+- Which products have the highest inventory value?
 
-#### Suppliers
-- Which suppliers are causing late deliveries?
-- Which suppliers have the highest defect rates?
+#### Procurement
+- Which suppliers perform best?
+- Which suppliers consistently deliver late?
+- What are the average lead times?
 - Which suppliers should be reviewed?
 
-#### Purchasing
-- Which materials have the longest lead times?
-- How accurate are expected delivery dates?
+#### Sales
+- Which products generate the highest revenue?
+- Which products generate the highest profit?
+- What are the monthly sales trends?
 
-#### Fulfilment
-- Which warehouses perform best?
-- Which orders are late?
+#### Operations
+- What is OTIF performance?
+- What are the inventory holding costs?
+- Which warehouses carry the most stock?
 
-#### Demand Planning
-- Which products have the highest demand?
-- Which orders are late?
-
-#### Executive
-- Working Capital tied up in inventory?
-- On Time In Full (OTIF) performance?
-- Fill rate?
-- Inventory days?
-- Supplier scorecard?
-
+### Project Workflow
+1. Create the Database
+2. Create the Schemas
+3. Create the Tables
+4. Load the master data
+5. Load the operational data
+6. Create the data issues
+7. Validate the data
+8. Clean the data
+9. Create the report views
+10. Export CSV files
+11. Build the Power BI model
+12. Develop the dashboards
+13. Generate the Business Insights
 
 ### Project Structure
 
