@@ -1,6 +1,6 @@
 /* Supplier table */
 CREATE TABLE master_data.Suppliers(
-SupplierID INT IDENTITY(1,1),
+SupplierID INT IDENTITY(1,1) PRIMARY KEY,
 SupplierName VARCHAR(100),
 Country VARCHAR(60),
 LeadTimeDays INT,
@@ -10,7 +10,7 @@ GO
 
 /* Product table */
 CREATE TABLE master_data.Products(
-ProductID INT IDENTITY(1,1),
+ProductID INT IDENTITY(1,1) PRIMARY KEY,
 ProductName varchar(50),
 ProductCategory VARCHAR(50),
 UnitCost DECIMAL(10,2),
@@ -19,7 +19,7 @@ GO
 
 /* Inventory table */
 CREATE TABLE inventory.Stock(
-InventoryID INT IDENTITY(1,1),
+InventoryID INT IDENTITY(1,1) PRIMARY KEY,
 ProductID INT,
 Warehouse VARCHAR(50),
 StockQuantity INT,
@@ -29,7 +29,7 @@ GO
 
 /* PurchaseOrder table */
 CREATE TABLE procurement.PurchaseOrders(
-PurchaseOrderID INT IDENTITY(1,1),
+PurchaseOrderID INT IDENTITY(1,1) PRIMARY KEY,
 SupplierID INT,
 ProductID INT,
 QuantityOrdered INT,
@@ -41,7 +41,7 @@ GO
 
 /* SalesOrders table */
 CREATE TABLE sales.SalesOrders(
-SalesOrderID INT IDENTITY(1,1),
+SalesOrderID INT IDENTITY(1,1) PRIMARY KEY,
 ProductID INT,
 OrderDate DATE,
 Customer VARCHAR(100),
