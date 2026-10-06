@@ -1,4 +1,5 @@
-﻿1,6,Hops Direct,2025-06-09,2025-06-23,2025-06-20,11,1
+﻿PurchaseID,SupplierID,SupplierName,OrderDate,ExpectedDeliveryDate,ActualDeliveryDate,LeadTimeDays,OnTimeFlag
+1,6,Hops Direct,2025-06-09,2025-06-23,2025-06-20,11,1
 2,9,Packaging UK,2026-02-12,2026-02-27,2026-02-18,6,1
 3,3,Euro Malt GmbH,2026-07-18,2026-07-31,2026-07-26,8,1
 4,15,Lager Ingredients,2026-05-24,2026-06-01,2026-05-27,3,1
