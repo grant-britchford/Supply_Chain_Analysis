@@ -27,7 +27,7 @@ GO
 /* delivery date fixture */
 UPDATE procurement.PurchaseOrders
 SET ActualDeliveryDate = ExpectedDeliveryDate
-WHERE ActualDeliveryDate > GETDATE();
+WHERE ActualDeliveryDate > DATEADD(YEAR, 1, ExpectedDeliveryDate);
 GO
 
 /* email fix */

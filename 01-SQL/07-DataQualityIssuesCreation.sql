@@ -29,7 +29,7 @@ GO
 
 /* delivery dates */
 UPDATE procurement.PurchaseOrders
-SET ActualDeliveryDate = DATEADD(YEAR, 2, ActualDeliveryDate)
+SET ActualDeliveryDate = DATEADD(YEAR, 2, ExpectedDeliveryDate)
 WHERE PurchaseID % 100 = 0;
 GO
 
