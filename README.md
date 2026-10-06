@@ -106,7 +106,7 @@ Supply_Chain_Analysis/
 │    ├── 04-LoadMasterData.sql
 │    ├── 05-LoadOpsData.sql
 │    ├── 06-DataValidation.sql
-│    ├──
+│    ├── 07-DataQualityIssuesCreation.sql
 │
 ├── Data/
 │    ├──
