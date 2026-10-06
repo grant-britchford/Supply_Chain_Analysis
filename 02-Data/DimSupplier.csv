@@ -1,0 +1,21 @@
+﻿SupplierID,SupplierName,Country,LeadTimeDays,SupplierRating
+1,Hop Alliance UK,UK,7,4.90
+2,Northern Malt,UK,10,4.70
+3,Euro Malt GmbH,Germany,14,4.30
+4,Premium Yeast,Belgium,9,4.80
+5,Brew Logistics,UK,5,4.40
+6,Hops Direct,USA,18,4.50
+7,Malt Brothers,Germany,13,4.20
+8,Belgian Yeast Co,Belgium,8,4.60
+9,Packaging UK,UK,5,4.10
+10,Can Solutions,UK,7,4.40
+11,Barley Source,France,12,4.00
+12,Grain Experts,France,15,4.10
+13,Hop Global,USA,20,4.80
+14,Bottle Supply,UK,6,4.50
+15,Lager Ingredients,Germany,11,4.30
+16,Craft Supply Co,UK,8,4.40
+17,Yeast Innovations,Belgium,9,4.60
+18,Raw Materials Ltd,UK,7,4.00
+19,Supply Partners,UK,6,4.20
+20,Ingredient Hub,Netherlands,10,4.70
