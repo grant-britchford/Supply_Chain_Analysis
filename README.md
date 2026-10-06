@@ -123,7 +123,7 @@ Supply_Chain_Analysis/
 │    └── DimSupplierPerformance.csv
 │
 ├─ Power BI/
-│
+│    └── BlackCrowSupplyDashboard.pbix
 │
 ├─ Images/
 │
