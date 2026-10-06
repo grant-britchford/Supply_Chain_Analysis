@@ -108,6 +108,7 @@ Supply_Chain_Analysis/
 │    ├── 06-DataValidation.sql
 │    ├── 07-DataQualityIssuesCreation.sql
 │    ├── 08-DataValidation.sql
+│    ├── 09-DataCleaning.sql
 │
 ├── Data/
 │    ├──
