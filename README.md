@@ -110,6 +110,7 @@ Supply_Chain_Analysis/
 │    ├── 08-DataValidation.sql
 │    ├── 09-DataCleaning.sql
 │    ├── 10-CleaningValidation.sql
+│    ├── 11-ViewsCreation.sql
 │
 ├── Data/
 │    ├──
