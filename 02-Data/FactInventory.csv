@@ -1,0 +1,151 @@
+﻿InventoryID,ProductID,ProductName,ProductCategory,Warehouse,StockQuantity,ReOrderPoint,StockStatus
+1,1,Beer_1,IPA,Leeds Warehouse,1023,81,Healthy
+51,1,Beer_1,IPA,London Warehouse,711,235,Healthy
+101,1,Beer_1,IPA,Manchester Warehouse,241,70,Healthy
+102,2,Beer_2,IPA,Manchester Warehouse,905,185,Healthy
+52,2,Beer_2,IPA,London Warehouse,739,197,Healthy
+2,2,Beer_2,IPA,Leeds Warehouse,1049,213,Healthy
+3,3,Beer_3,IPA,Leeds Warehouse,285,218,Healthy
+53,3,Beer_3,IPA,London Warehouse,754,123,Healthy
+103,3,Beer_3,IPA,Manchester Warehouse,341,72,Healthy
+104,4,Beer_4,IPA,Manchester Warehouse,927,79,Healthy
+54,4,Beer_4,IPA,London Warehouse,592,96,Healthy
+4,4,Beer_4,IPA,Leeds Warehouse,360,68,Healthy
+5,5,Beer_5,IPA,Leeds Warehouse,25,155,ReOrder Required
+55,5,Beer_5,IPA,London Warehouse,311,92,Healthy
+105,5,Beer_5,IPA,Manchester Warehouse,625,124,Healthy
+106,6,Beer_6,IPA,Manchester Warehouse,214,224,ReOrder Required
+56,6,Beer_6,IPA,London Warehouse,200,149,Healthy
+6,6,Beer_6,IPA,Leeds Warehouse,485,70,Healthy
+7,7,Beer_7,IPA,Leeds Warehouse,987,88,Healthy
+57,7,Beer_7,IPA,London Warehouse,512,203,Healthy
+107,7,Beer_7,IPA,Manchester Warehouse,262,105,Healthy
+108,8,Beer_8,IPA,Manchester Warehouse,919,230,Healthy
+58,8,Beer_8,IPA,London Warehouse,393,65,Healthy
+8,8,Beer_8,IPA,Leeds Warehouse,799,146,Healthy
+9,9,Beer_9,IPA,Leeds Warehouse,492,192,Healthy
+59,9,Beer_9,IPA,London Warehouse,758,184,Healthy
+109,9,Beer_9,IPA,Manchester Warehouse,169,197,ReOrder Required
+110,10,Beer_10,IPA,Manchester Warehouse,664,237,Healthy
+60,10,Beer_10,IPA,London Warehouse,299,167,Healthy
+10,10,Beer_10,IPA,Leeds Warehouse,467,234,Healthy
+11,11,Beer_11,IPA,Leeds Warehouse,997,121,Healthy
+61,11,Beer_11,IPA,London Warehouse,940,179,Healthy
+111,11,Beer_11,IPA,Manchester Warehouse,86,238,ReOrder Required
+112,12,Beer_12,IPA,Manchester Warehouse,607,60,Healthy
+62,12,Beer_12,IPA,London Warehouse,714,54,Healthy
+12,12,Beer_12,IPA,Leeds Warehouse,390,242,Healthy
+13,13,Beer_13,IPA,Leeds Warehouse,841,129,Healthy
+63,13,Beer_13,IPA,London Warehouse,756,219,Healthy
+113,13,Beer_13,IPA,Manchester Warehouse,1022,54,Healthy
+114,14,Beer_14,IPA,Manchester Warehouse,737,190,Healthy
+64,14,Beer_14,IPA,London Warehouse,825,120,Healthy
+14,14,Beer_14,IPA,Leeds Warehouse,542,242,Healthy
+15,15,Beer_15,IPA,Leeds Warehouse,638,72,Healthy
+65,15,Beer_15,IPA,London Warehouse,385,61,Healthy
+115,15,Beer_15,IPA,Manchester Warehouse,164,50,Healthy
+116,16,Beer_16,Lager,Manchester Warehouse,412,196,Healthy
+66,16,Beer_16,Lager,London Warehouse,244,97,Healthy
+16,16,Beer_16,Lager,Leeds Warehouse,803,193,Healthy
+17,17,Beer_17,Lager,Leeds Warehouse,657,126,Healthy
+67,17,Beer_17,Lager,London Warehouse,260,111,Healthy
+117,17,Beer_17,Lager,Manchester Warehouse,841,225,Healthy
+118,18,Beer_18,Lager,Manchester Warehouse,642,95,Healthy
+68,18,Beer_18,Lager,London Warehouse,523,198,Healthy
+18,18,Beer_18,Lager,Leeds Warehouse,892,138,Healthy
+19,19,Beer_19,Lager,Leeds Warehouse,454,127,Healthy
+69,19,Beer_19,Lager,London Warehouse,538,75,Healthy
+119,19,Beer_19,Lager,Manchester Warehouse,381,187,Healthy
+120,20,Beer_20,Lager,Manchester Warehouse,137,126,Healthy
+70,20,Beer_20,Lager,London Warehouse,294,180,Healthy
+20,20,Beer_20,Lager,Leeds Warehouse,624,248,Healthy
+21,21,Beer_21,Lager,Leeds Warehouse,318,136,Healthy
+71,21,Beer_21,Lager,London Warehouse,721,216,Healthy
+121,21,Beer_21,Lager,Manchester Warehouse,777,141,Healthy
+122,22,Beer_22,Lager,Manchester Warehouse,1008,70,Healthy
+72,22,Beer_22,Lager,London Warehouse,909,195,Healthy
+22,22,Beer_22,Lager,Leeds Warehouse,53,154,ReOrder Required
+23,23,Beer_23,Lager,Leeds Warehouse,699,157,Healthy
+73,23,Beer_23,Lager,London Warehouse,170,220,ReOrder Required
+123,23,Beer_23,Lager,Manchester Warehouse,539,202,Healthy
+124,24,Beer_24,Lager,Manchester Warehouse,610,75,Healthy
+74,24,Beer_24,Lager,London Warehouse,1006,100,Healthy
+24,24,Beer_24,Lager,Leeds Warehouse,480,114,Healthy
+25,25,Beer_25,Lager,Leeds Warehouse,25,101,ReOrder Required
+75,25,Beer_25,Lager,London Warehouse,911,155,Healthy
+125,25,Beer_25,Lager,Manchester Warehouse,540,232,Healthy
+126,26,Beer_26,Lager,Manchester Warehouse,958,161,Healthy
+76,26,Beer_26,Lager,London Warehouse,95,59,Healthy
+26,26,Beer_26,Lager,Leeds Warehouse,811,202,Healthy
+27,27,Beer_27,Lager,Leeds Warehouse,396,133,Healthy
+77,27,Beer_27,Lager,London Warehouse,240,64,Healthy
+127,27,Beer_27,Lager,Manchester Warehouse,1008,56,Healthy
+128,28,Beer_28,Lager,Manchester Warehouse,915,199,Healthy
+78,28,Beer_28,Lager,London Warehouse,90,183,ReOrder Required
+28,28,Beer_28,Lager,Leeds Warehouse,927,215,Healthy
+29,29,Beer_29,Lager,Leeds Warehouse,708,193,Healthy
+79,29,Beer_29,Lager,London Warehouse,333,120,Healthy
+129,29,Beer_29,Lager,Manchester Warehouse,340,70,Healthy
+130,30,Beer_30,Lager,Manchester Warehouse,567,63,Healthy
+80,30,Beer_30,Lager,London Warehouse,700,162,Healthy
+30,30,Beer_30,Lager,Leeds Warehouse,536,124,Healthy
+31,31,Beer_31,Stout,Leeds Warehouse,542,182,Healthy
+81,31,Beer_31,Stout,London Warehouse,426,122,Healthy
+131,31,Beer_31,Stout,Manchester Warehouse,674,229,Healthy
+132,32,Beer_32,Stout,Manchester Warehouse,977,242,Healthy
+82,32,Beer_32,Stout,London Warehouse,334,215,Healthy
+32,32,Beer_32,Stout,Leeds Warehouse,828,126,Healthy
+33,33,Beer_33,Stout,Leeds Warehouse,401,104,Healthy
+83,33,Beer_33,Stout,London Warehouse,682,75,Healthy
+133,33,Beer_33,Stout,Manchester Warehouse,323,162,Healthy
+134,34,Beer_34,Stout,Manchester Warehouse,903,171,Healthy
+84,34,Beer_34,Stout,London Warehouse,1043,51,Healthy
+34,34,Beer_34,Stout,Leeds Warehouse,777,67,Healthy
+35,35,Beer_35,Stout,Leeds Warehouse,873,242,Healthy
+85,35,Beer_35,Stout,London Warehouse,772,157,Healthy
+135,35,Beer_35,Stout,Manchester Warehouse,1010,164,Healthy
+136,36,Beer_36,Stout,Manchester Warehouse,1027,209,Healthy
+86,36,Beer_36,Stout,London Warehouse,127,73,Healthy
+36,36,Beer_36,Stout,Leeds Warehouse,840,179,Healthy
+37,37,Beer_37,Stout,Leeds Warehouse,884,125,Healthy
+87,37,Beer_37,Stout,London Warehouse,79,148,ReOrder Required
+137,37,Beer_37,Stout,Manchester Warehouse,927,55,Healthy
+138,38,Beer_38,Stout,Manchester Warehouse,364,206,Healthy
+88,38,Beer_38,Stout,London Warehouse,62,80,ReOrder Required
+38,38,Beer_38,Stout,Leeds Warehouse,1025,111,Healthy
+39,39,Beer_39,Stout,Leeds Warehouse,1041,238,Healthy
+89,39,Beer_39,Stout,London Warehouse,812,184,Healthy
+139,39,Beer_39,Stout,Manchester Warehouse,629,63,Healthy
+140,40,Beer_40,Stout,Manchester Warehouse,265,248,Healthy
+90,40,Beer_40,Stout,London Warehouse,950,127,Healthy
+40,40,Beer_40,Stout,Leeds Warehouse,843,55,Healthy
+41,41,Beer_41,Pale Ale,Leeds Warehouse,808,95,Healthy
+91,41,Beer_41,Pale Ale,London Warehouse,134,110,Healthy
+141,41,Beer_41,Pale Ale,Manchester Warehouse,641,194,Healthy
+142,42,Beer_42,Pale Ale,Manchester Warehouse,715,78,Healthy
+92,42,Beer_42,Pale Ale,London Warehouse,360,181,Healthy
+42,42,Beer_42,Pale Ale,Leeds Warehouse,742,211,Healthy
+43,43,Beer_43,Pale Ale,Leeds Warehouse,256,87,Healthy
+93,43,Beer_43,Pale Ale,London Warehouse,741,218,Healthy
+143,43,Beer_43,Pale Ale,Manchester Warehouse,192,213,ReOrder Required
+144,44,Beer_44,Pale Ale,Manchester Warehouse,538,247,Healthy
+94,44,Beer_44,Pale Ale,London Warehouse,598,51,Healthy
+44,44,Beer_44,Pale Ale,Leeds Warehouse,168,146,Healthy
+45,45,Beer_45,Pale Ale,Leeds Warehouse,441,114,Healthy
+95,45,Beer_45,Pale Ale,London Warehouse,336,193,Healthy
+145,45,Beer_45,Pale Ale,Manchester Warehouse,430,193,Healthy
+146,46,Beer_46,Pale Ale,Manchester Warehouse,697,226,Healthy
+96,46,Beer_46,Pale Ale,London Warehouse,873,130,Healthy
+46,46,Beer_46,Pale Ale,Leeds Warehouse,555,148,Healthy
+47,47,Beer_47,Pale Ale,Leeds Warehouse,429,161,Healthy
+97,47,Beer_47,Pale Ale,London Warehouse,875,209,Healthy
+147,47,Beer_47,Pale Ale,Manchester Warehouse,95,57,Healthy
+148,48,Beer_48,Pale Ale,Manchester Warehouse,77,128,ReOrder Required
+98,48,Beer_48,Pale Ale,London Warehouse,833,158,Healthy
+48,48,Beer_48,Pale Ale,Leeds Warehouse,436,247,Healthy
+49,49,Beer_49,Pale Ale,Leeds Warehouse,969,56,Healthy
+99,49,Beer_49,Pale Ale,London Warehouse,261,83,Healthy
+149,49,Beer_49,Pale Ale,Manchester Warehouse,125,213,ReOrder Required
+150,50,Beer_50,Pale Ale,Manchester Warehouse,840,178,Healthy
+100,50,Beer_50,Pale Ale,London Warehouse,947,176,Healthy
+50,50,Beer_50,Pale Ale,Leeds Warehouse,25,147,ReOrder Required
