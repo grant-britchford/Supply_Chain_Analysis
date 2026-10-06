@@ -116,7 +116,7 @@ Supply_Chain_Analysis/
 ├── Data/
 │    ├── FactOTIF.csv
 │    ├── FactInventory.csv
-│    ├──
+│    ├── FactProductProfitability.csv
 │    ├──
 │    ├──
 │
