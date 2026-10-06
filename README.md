@@ -117,8 +117,8 @@ Supply_Chain_Analysis/
 │    ├── FactOTIF.csv
 │    ├── FactInventory.csv
 │    ├── FactProductProfitability.csv
-│    ├──
-│    ├──
+│    ├── FactSales.csv
+│    └──
 │
 ├─ Power BI/
 │
