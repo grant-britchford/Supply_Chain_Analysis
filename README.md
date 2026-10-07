@@ -137,6 +137,7 @@ Supply_Chain_Analysis/
 │    └── 08-Product Performance with Slicers.png
 │
 └── Documents/
+│    ├── DataDictionary.md
 ```
 
 ### Tech Used:
