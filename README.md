@@ -138,6 +138,7 @@ Supply_Chain_Analysis/
 │
 └── Documents/
 │    ├── DataDictionary.md
+│    ├── KPI_Glossary.md
 ```
 
 ### Tech Used:
