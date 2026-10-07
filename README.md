@@ -63,7 +63,7 @@ I have been hired as the Supply Chain Analyst to deliver the solution.
 - What are the inventory holding costs?
 - Which warehouses carry the most stock?
 
-### Project Workflow
+### Project Workflow:
 1. Create the Database
 2. Create the Schemas
 3. Create the Tables
@@ -78,7 +78,7 @@ I have been hired as the Supply Chain Analyst to deliver the solution.
 12. Develop the dashboards
 13. Generate the Business Insights
 
-### Target Database Size
+### Target Database Size:
 
 **Table** | **Target Rows**
 
@@ -92,7 +92,7 @@ Purchase Orders | 5,000
 
 Sales Orders | 10,000
 
-### Project Structure
+### Project Structure:
 
 ```text
 Supply_Chain_Analysis/
@@ -139,13 +139,44 @@ Supply_Chain_Analysis/
 └── Documents/
 ```
 
-### Tools Used
+### Tech Used:
 
-1. SQL Server - Data warehouse and transformation
-2. T-SQL - Data cleaning & KPI calculations
-3. Python - Data generation
-4. Pandas - Data manipulation
-5. Power BI - Visualisation
-6. DAX - KPI calculations
-7. GitHub - Repository
-8. Excel - Validation & reconciliation
+#### SQL Server Express
+- Database creation
+- Schema design
+- Table creation
+- Data generation
+- Data quality testing
+- Data cleaning
+- view creation
+- Business analysis
+
+#### Power BI
+- Data modelling
+- DAX calculations
+- Dashboard design
+- KPI development
+- Visual analytics
+
+### Key Business Insights:
+
+- Supplier performance varied considerably across the supplier base.
+- OTIF performance highlighted opportunities for supplier improvement.
+- Inventory levels revealed products requiring ReOrder review.
+- Revenue generation was concentrated amongst a subset of products.
+- Product profitability differed significantly across categories.
+
+### Business Recommendations:
+
+1. Prioritise suppliers demonstrating strong OTIF performance and competitive lead times.
+2. Review products consistently falling below ReOrder levels.
+3. Implement ongoing OTIF monitoring to improve service levels.
+4. Use historical sales trends to support forecasting improvements.
+
+### Author:
+
+Grant Britchford
+
+Data Analyst
+
+**Date**: 7th Oct 2026
