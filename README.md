@@ -126,6 +126,15 @@ Supply_Chain_Analysis/
 │    └── BlackCrowSupplyDashboard.pbix
 │
 ├─ Images/
+│    ├── 00-Model Relationship.png
+│    ├── 01-Executive Overview.png
+│    ├── 02-Executive Overview with Slicers.png
+│    ├── 03-Inventory Management.png
+│    ├── 04-Inventory Management with Slicers.png
+│    ├── 05-Supplier Performance.png
+│    ├── 06-Supplier Performance with Slicers.png
+│    ├── 07-Product Performance.png
+│    └── 08-Product Performance with Slicers.png
 │
 └── Documents/
 ```
